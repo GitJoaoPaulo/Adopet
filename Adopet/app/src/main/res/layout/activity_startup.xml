@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activities.StartupActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/startup_logo_height"
+        android:layout_margin="@dimen/startup_logo_margin"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_adopet" />
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/StandardButton"
+        android:layout_width="@dimen/standard_width"
+        android:layout_height="@dimen/standard_height"
+        android:onClick="onLogin"
+        android:text="@string/startup_button_login"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/standard_width"
+        android:layout_height="45dp"
+        style="@style/StandardButton"
+        android:onClick="onSignup"
+        android:text="@string/startup_button_signup" />
+
+
+</LinearLayout>

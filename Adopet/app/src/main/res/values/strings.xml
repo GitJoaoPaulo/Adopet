@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Adopet</string>
+    <string name="startup_button_login">Entrar</string>
+    <string name="startup_button_signup">Registrar-se</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Senha</string>
+    <string name="login_button_text">Entrar</string>
+    <string name="sign_up_button_text">Registrar-se</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_age">Idade</string>
+    <string name="hint_gender">Eu sou</string>
+    <string name="hint_man">Humano</string>
+    <string name="hint_woman">Animal</string>
+    <string name="hint_preferred_gender">Procurando por</string>
+    <string name="button_sign_out">Sair</string>
+    <string name="button_apply">Aplicar</string>
+    <string name="error_profile_incomplete">Por favor complete seu perfil</string>
+    <string name="no_available_users">Nenhum usuário disponível</string>
+    <string name="send_button_text">Enviar</string>
+    <string name="hint_message">Mensagem</string>
+</resources>
